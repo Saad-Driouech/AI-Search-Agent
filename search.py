@@ -138,7 +138,7 @@ def general_search(problem, strategy):
     print("Total number of nodes expanded is: ", number_expanded_nodes)
     return None
 
-    "Important note, we decided to omit displaying the frontier, since it could contain thousaands of nodes in some cases"
+    "Important note, we decided to omit displaying the frontier, since it could contain thousands of nodes in some cases"
     
     " It will therefore clutter the console, that's why we didn't include it in the output"
 
