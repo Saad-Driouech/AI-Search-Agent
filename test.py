@@ -40,7 +40,7 @@ while flag == 0:
             print("Please make sure you provide a valid choice for your game")
             val = int(input("Try again choosing a game: "))
 
-print("Please choose one of the following strategies (your choice must be the corresponding number in the menu below:")
+print("Please choose one of the following strategies (your choice must be the corresponding number in the menu below: ")
 val = int(input("1. Breadth-First search\n2. Depth-First search\n3. Greedy Best-First search\n4. A* search\nEnter your choice: "))
 flag = 0
 while flag == 0:
