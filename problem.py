@@ -10,7 +10,7 @@ class Problem:
     def actions(self):
         raise NotImplementedError
 
-    def successor_function(self):
+    def successor_function(self, parent):
         raise NotImplementedError
 
     def goal_test(self, state):
